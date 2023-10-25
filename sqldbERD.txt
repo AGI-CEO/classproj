@@ -1,0 +1,25 @@
+/*
+* ERD Diagram
+*
+* Table 1: Users
+* +----------------+--------------+
+* | Column         | Type         |
+* +----------------+--------------+
+* | id             | INT          |
+* | name           | VARCHAR(100) |
+* | email          | VARCHAR(100) |
+* +----------------+--------------+
+*
+* Table 2: Orders
+* +----------------+--------------+
+* | Column         | Type         |
+* | id             | INT          |
+* | user_id        | INT          |
+* | product        | VARCHAR(100) |
+* | quantity       | INT          |
+* +----------------+--------------+
+*
+* Relationships:
+* - One User can have many Orders (One-to-Many)
+* - Each Order is associated with one User
+*/

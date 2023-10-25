@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ffffff;
+      }
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+      }
+      a {
+        color: #ffffff;
+      }
+    </style>
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <h1>Home</h1>
+    <p>Home page content goes here.</p>
+    <table id="data-table">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <nav>
+      <ul>
+        <li><a href="/api/users">Users</a></li>
+        <li><a href="/api/orders">Orders</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
